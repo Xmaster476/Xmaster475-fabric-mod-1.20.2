@@ -1,0 +1,1 @@
+# My minecraft mod template
