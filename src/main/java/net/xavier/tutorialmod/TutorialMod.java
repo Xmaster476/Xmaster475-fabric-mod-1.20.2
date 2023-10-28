@@ -2,6 +2,8 @@ package net.xavier.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.xavier.tutorialmod.item.ModItemGroups;
+import net.xavier.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,5 +21,7 @@ public class TutorialMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 	}
 }
