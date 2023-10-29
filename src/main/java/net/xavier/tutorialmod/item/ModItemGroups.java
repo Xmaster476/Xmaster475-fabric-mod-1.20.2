@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.xavier.tutorialmod.TutorialMod;
+import net.xavier.tutorialmod.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup NEW_GEMS = Registry.register(Registries.ITEM_GROUP,
@@ -16,6 +17,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.CITRINE)).entries((displayContext, entries) -> {
                       entries.add(ModItems.SAPPHIRE);
                       entries.add(ModItems.CITRINE);
+                      entries.add(ModBlocks.RUBY_BLOCK);
+                      entries.add(ModItems.RUBY);
                     }).build());
     public static void registerItemGroups(){
         TutorialMod.LOGGER.info("Registering item groups for " + TutorialMod.MOD_ID);
