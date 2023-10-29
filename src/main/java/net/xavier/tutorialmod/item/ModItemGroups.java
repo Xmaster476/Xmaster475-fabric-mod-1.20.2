@@ -19,6 +19,12 @@ public class ModItemGroups {
                       entries.add(ModItems.CITRINE);
                       entries.add(ModBlocks.RUBY_BLOCK);
                       entries.add(ModItems.RUBY);
+                      entries.add(ModBlocks.RAW_RUBY_BLOCK);
+                      entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
+                      entries.add(ModBlocks.END_RUBY_ORE);
+                      entries.add(ModBlocks.RUBY_ORE);
+                      entries.add(ModBlocks.NETHER_RUBY_ORE);
+                      entries.add(ModItems.RAW_RUBY);
                     }).build());
     public static void registerItemGroups(){
         TutorialMod.LOGGER.info("Registering item groups for " + TutorialMod.MOD_ID);

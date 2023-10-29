@@ -3,5 +3,11 @@
   "item.tutorialmod.sapphire": "Sapphire",
   "itemgroup.gems" : "Gems",
   "block.tutorialmod.ruby_block": "Ruby Block",
-  "item.tutorialmod.ruby": "Ruby"
+  "item.tutorialmod.ruby": "Ruby",
+  "block.tutorialmod.raw_ruby_block": "Raw Ruby Block",
+  "block.tutorialmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.tutorialmod.ruby_ore": "Ruby Ore",
+  "block.tutorialmod.nether_ruby_ore": "Nether Ruby Ore",
+  "block.tutorialmod.end_ruby_ore": "End Ruby Ore",
+  "item.tutorialmod.raw_ruby": "Raw Ruby"
 }
